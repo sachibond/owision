@@ -1,0 +1,47 @@
+
+
+/******* Customized Bootstrap ********/
+
+$primary: #02537e;
+$light: #F6F7F8;
+$dark: #1A2A36;
+
+$font-family-base: 'Open Sans', sans-serif;
+
+$headings-font-family: 'Roboto', sans-serif;
+
+$body-color: #9B9B9B;
+
+$headings-color: $dark;
+
+$headings-font-weight: 700;
+
+$display-font-weight: 900;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: 8px;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 345px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1900px
+);
+    
+$container-max-widths: (
+        sm: 340px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1610px
+);
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap'
